@@ -37,6 +37,12 @@ This function looked harmless at first but had many implications:
 
 ### Our Approach
 
+We believe our success in this competition can be ascribed to:
+- Great guidance in the process by Professor Lessmann (no help apart from general advice, as this was a student only competition).
+- Loose division of responsibilities: This enabled parts of the team to start training models right away while new data sets kept coming from the feature engineering team and everyone got more insight into the specifics of the task.
+- A very deep dive into the data and extensive feature engineering.
+- Training lots of machine learning models.
+- Forecast combination of machine learning and econometric approaches using hold-out data.
 
 More details in our report and short slide deck.
 
@@ -52,6 +58,4 @@ More details in our report and short slide deck.
 8. U Marburg (Germany)
 9. TU Dortmund (Germany)
 10. KIT (Germany)
-
-### 
 

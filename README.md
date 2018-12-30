@@ -49,7 +49,7 @@ More details in our report and short slide deck.
 
 ### Final Ranking
 
-1. HU Berlin 2 (Germany)
+1. **HU Berlin 2 (Germany)**
 2. Iowa State 2 (USA)
 3. Iowa State 1 (USA)
 4. École Polytechnique Fédérale De Lausanne (Switzerland)

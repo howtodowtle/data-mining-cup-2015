@@ -33,7 +33,7 @@ The predictions were evaluated using a custom evluation function:
 This function looked harmless at first but had many implications:
 - 3 parts of the sum relate to the coupons, 1 to the basket value
 - Errors in the coupon predictions are weighted inversely to that coupon's average redemption. (E.g. errors for a coupon that is redempted 20 % of the time are much more costly than errors for a coupon that is redempted 70 % of the time.)
-- 
+- It seemed important to detect very large basket value outliers in the test data since these had a potentially huge impact while basket values close to the mean almost would not matter. *(This is where our hand-crafted econometric models outperformed the machine learning models and might have given us the edge over teams only applying standard machine learning tools.)*
 
 ### Our Approach
 
@@ -43,6 +43,7 @@ We believe our success in this competition can be ascribed to:
 - A very deep dive into the data and extensive feature engineering.
 - Training lots of machine learning models.
 - Forecast combination of machine learning and econometric approaches using hold-out data.
+- A good portion of luck. :)
 
 More details in our report and short slide deck.
 

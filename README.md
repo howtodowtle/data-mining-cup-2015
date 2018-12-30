@@ -2,7 +2,7 @@
 
 Our team of students from Humboldt-Universität zu Berlin (HU Berlin) in the course "Applied Predictive Analytics" of [Professor Lessmann](https://www.wiwi.hu-berlin.de/de/professuren/bwl/wi/personen/hl) won the international machine learning competition Data Mining Cup in 2015.
 
-![DMC 2015 winners!](https://www.data-mining-cup.com/wp-content/uploads/data-mining-cup-2015_winning-team_humboldt-uni-berlin-1200x801.jpg)
+<img src="https://www.data-mining-cup.com/wp-content/uploads/data-mining-cup-2015_winning-team_humboldt-uni-berlin-1200x801.jpg" alt="DMC 2015 winners!" width="500"/>
 
 ## The Competition
 

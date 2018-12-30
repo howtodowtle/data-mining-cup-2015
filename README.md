@@ -14,10 +14,15 @@ A short overview over the competition task and the datasets can be found on the 
 - Questions: 
   - “Who responds to coupons?”
   - “What is the impact on the basket value?”
-- Data: historical order data from an online shop
-- Targets:
-  - 3 different coupons (binary classification: redempted or not?)
-  - basekt value (regression)
+- **Data: historical order data from an online shop**
+  - Original/raw features (28): 
+    - order ID, order time, user ID
+    - product data (price, categorgy, product line, premium product?, ...)
+    - coupon data (ID, time of generation)
+    - An overview over all provided features was part of the provided task description (link).
+  - Targets (4):
+    - 3 different coupons (binary classification: redempted or not?)
+    - basekt value (regression)
 
 ### Evaluation
 

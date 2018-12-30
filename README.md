@@ -15,6 +15,7 @@ A short overview over the competition task and the datasets can be found on the 
   - “Who responds to coupons?”
   - “What is the impact on the basket value?”
 - **Data: historical order data from an online shop**
+  - Originally only around 6k observations (augmented to about 20k by us).
   - Original/raw features (28): 
     - order ID, order time, user ID
     - product data (price, categorgy, product line, premium product?, ...)
@@ -22,7 +23,7 @@ A short overview over the competition task and the datasets can be found on the 
     - An overview over all provided features was part of the provided task description (link).
   - Targets (4):
     - 3 different coupons (binary classification: redempted or not?)
-    - basekt value (regression)
+    - shopping basket value (regression)
 
 ### Evaluation
 
@@ -33,7 +34,7 @@ The predictions were evaluated using a custom evluation function:
 This function looked harmless at first but had many implications:
 - 3 parts of the sum relate to the coupons, 1 to the basket value
 - Errors in the coupon predictions are weighted inversely to that coupon's average redemption. (E.g. errors for a coupon that is redempted 20 % of the time are much more costly than errors for a coupon that is redempted 70 % of the time.)
-- It seemed important to detect very large basket value outliers in the test data since these had a potentially huge impact while basket values close to the mean almost would not matter. *(This is where our hand-crafted econometric models outperformed the machine learning models and might have given us the edge over teams only applying standard machine learning tools.)*
+- It seemed important to detect very large basket value outliers in the test data since these had a potentially huge impact. *(This is where our hand-crafted econometric models outperformed the machine learning models and might have given us the edge over teams only applying standard machine learning tools.)*
 
 ### Our Approach
 
@@ -55,7 +56,7 @@ More details in our report and short slide deck.
 4. École Polytechnique Fédérale De Lausanne (Switzerland)
 5. École Polytechnique Fédérale De Lausanne (Switzerland)
 6. HU Berlin 1 (Germany)
-7. Gadjah-Mada (Indonesia)
+7. Gadjah-Mada U (Indonesia)
 8. U Marburg (Germany)
 9. TU Dortmund (Germany)
 10. KIT (Germany)

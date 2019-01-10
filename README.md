@@ -8,7 +8,7 @@ Our team of students from Humboldt-Universität zu Berlin (HU Berlin) in the cou
 
 A short overview over the competition task and the datasets can be found on the [competition website](https://www.data-mining-cup.com/reviews/dmc-2015/).
 
-### Task
+### [Task](https://github.com/howtodowtle/data-mining-cup-2015/tree/master/task)
 
 - Setting: Coupons in online shops
 - Questions: 

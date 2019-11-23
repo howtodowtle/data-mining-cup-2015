@@ -46,7 +46,7 @@ We believe our success in this competition can be ascribed to:
 - Forecast combination of machine learning and econometric approaches using hold-out data.
 - A good portion of luck. :)
 
-More details in our [report](https://github.com/howtodowtle/data-mining-cup-2015/DMC_Report_Dautel_Müller.pdf) and short slide deck.
+More details in our [report](DMC_Report_Dautel_Müller.pdf) and short slide deck.
 
 ### Final Ranking
 
